@@ -6,8 +6,10 @@ while i:
 
     resultat = int(tal) == random.randint(1, 6)
     print (resultat)
+
     cont = input("Vill du fortsätta? ")
-    if cont == "Nej" or "nej":
+
+    if cont == "Nej" or cont == "nej":
         i = False
 
     
