@@ -1,0 +1,38 @@
+body{
+
+    background-image: url("islandfinal-full.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.secondbackground{
+
+    width: 75%;
+    background: rgba(136, 138, 141, 0.6);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+.thirdbackground{
+    background-color: #3f4e58;
+    padding: 5%;
+
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 16px;
+}
+
+.navbutton{
+    background-color: #69665b;
+    border: 1px black solid;
+    text-align: center;
+    padding: 20px;
+}
