@@ -1,24 +1,19 @@
 #Start
 
-person1 = input("Personnummer ")
-person2 = input("Personnummer ")
-person3 = input("Personnummer ")
+person_1 = input("Roger: ")
+person_2 = input("Rasmus: ")
+person_3 = input("Birgitta: ")
 
-person1 = person1.strip()
-person2 = person2.strip()
-person3 = person3.strip()
+my_list = [person_1, person_2, person_3]
+my_list.sort()
+print(my_list)
 
-if len(person1) > 6:
-    person1 = person1[2:8]
-
-print(person1)
-
-if len(person2) > 6:
-    person2 = person2[2:8]
-
-print(person2)
-
-if len(person3) > 6:
-    person3 = person3[2:8]
-
-print(person3)
+if person_1 < person_2:
+  if person_1 < person_3:
+    print("Roger är äldst")
+  else:
+    print("Birgitta är äldst")
+elif person_2 < person_3:
+  print("Rasmus är äldst")
+else:
+  print("Birgitta är äldst")
